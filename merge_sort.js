@@ -40,7 +40,7 @@ var merge = function(array, p, q, r) {
     while (i < lowHalf.length) {
         array[k++] = lowHalf[i++];
     }
-    while (i < highHalf.length) {
+    while (j < highHalf.length) {
         array[k++] = highHalf[j++];
     }
 };
